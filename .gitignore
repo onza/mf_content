@@ -2,3 +2,4 @@ ext_emconf.php
 ext_icon.png
 /Resources/Public/Icons/Extension.svg
 .DS_Store
+*.swp
