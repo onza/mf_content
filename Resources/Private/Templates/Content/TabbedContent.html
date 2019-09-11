@@ -1,0 +1,22 @@
+<f:if condition="{data.header}">
+    {data.header}<br />
+</f:if>
+
+<f:if condition="{data_tx_mfcontent_tabbedcontent_items}">
+    <ul>
+        <f:for each="{data_tx_mfcontent_tabbedcontent_items}" as="data_item">
+            <li>
+                <f:if condition="{data_item.data.tx_mfcontent_tabbedcontent_text}">
+    <f:format.html parseFuncTSPath="lib.parseFunc_RTE">{data_item.data.tx_mfcontent_tabbedcontent_text}</f:format.html><br />
+</f:if>
+
+<f:if condition="{data_item.data.tx_mfcontent_tabbedcontent_title}">
+    {data_item.data.tx_mfcontent_tabbedcontent_title}<br />
+</f:if>
+
+
+            </li>
+        </f:for>
+    </ul>
+</f:if>
+

@@ -1,0 +1,37 @@
+<f:if condition="{data.header}">
+    {data.header}<br />
+</f:if>
+
+<f:if condition="{data_tx_mfcontent_iconinfobox_items}">
+    <ul>
+        <f:for each="{data_tx_mfcontent_iconinfobox_items}" as="data_item">
+            <li>
+                <f:if condition="{data_item.data_tx_mfcontent_iconinfobox_icon}">
+    <f:for each="{data_item.data_tx_mfcontent_iconinfobox_icon}" as="file">
+        <f:image image="{file}" alt="{file.alternative}" title="{file.title}" width="200" /><br />
+        {file.description} / {file.identifier}<br />
+    </f:for>
+</f:if>
+
+<f:if condition="{data_item.data.tx_mfcontent_iconinfobox_link}">
+    <f:link.page pageUid="{data_item.data.tx_mfcontent_iconinfobox_link}">{data_item.data.tx_mfcontent_iconinfobox_link}</f:link.page><br />
+</f:if>
+
+<f:if condition="{data_item.data.tx_mfcontent_iconinfobox_subtitle}">
+    {data_item.data.tx_mfcontent_iconinfobox_subtitle}<br />
+</f:if>
+
+<f:if condition="{data_item.data.tx_mfcontent_iconinfobox_text}">
+    <f:format.nl2br>{data_item.data.tx_mfcontent_iconinfobox_text}</f:format.nl2br><br />
+</f:if>
+
+<f:if condition="{data_item.data.tx_mfcontent_iconinfobox_title}">
+    {data_item.data.tx_mfcontent_iconinfobox_title}<br />
+</f:if>
+
+
+            </li>
+        </f:for>
+    </ul>
+</f:if>
+

@@ -1,0 +1,14 @@
+<f:if condition="{processedRow.header}">
+    <strong><f:translate key="LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:header" /></strong>
+    {processedRow.header} (raw={row.header})<br>
+</f:if>
+<f:if condition="{processedRow.tx_mfcontent_accordion_items}">
+    <strong><f:translate key="LLL:EXT:mf_content/Resources/Private/Language/locallang_db.xlf:tt_content.tx_mfcontent_accordion_items" /></strong>
+<br><f:for each="{processedRow.tx_mfcontent_accordion_items}" as="item">
+    <ul>
+        <li>
+            <f:translate key="LLL:EXT:mf_content/Resources/Private/Language/locallang_db.xlf:tx_mfcontent_accordion_items.tx_mfcontent_accordion_title" /> {item.tx_mfcontent_accordion_title} (id={item.uid})<br/>
+        </li>
+    </ul>
+</f:for>
+</f:if>

@@ -1,0 +1,29 @@
+<f:if condition="{data.header}">
+    {data.header}<br />
+</f:if>
+
+<f:if condition="{data_tx_mfcontent_smfooternavi_items}">
+    <ul>
+        <f:for each="{data_tx_mfcontent_smfooternavi_items}" as="data_item">
+            <li>
+                <f:if condition="{data_item.data_tx_mfcontent_smfooternavi_icon}">
+    <f:for each="{data_item.data_tx_mfcontent_smfooternavi_icon}" as="file">
+        <f:image image="{file}" alt="{file.alternative}" title="{file.title}" width="200" /><br />
+        {file.description} / {file.identifier}<br />
+    </f:for>
+</f:if>
+
+<f:if condition="{data_item.data.tx_mfcontent_smfooternavi_link}">
+    <f:link.page pageUid="{data_item.data.tx_mfcontent_smfooternavi_link}">{data_item.data.tx_mfcontent_smfooternavi_link}</f:link.page><br />
+</f:if>
+
+<f:if condition="{data_item.data.tx_mfcontent_smfooternavi_title}">
+    {data_item.data.tx_mfcontent_smfooternavi_title}<br />
+</f:if>
+
+
+            </li>
+        </f:for>
+    </ul>
+</f:if>
+

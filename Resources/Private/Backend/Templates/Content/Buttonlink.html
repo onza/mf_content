@@ -1,0 +1,16 @@
+<f:if condition="{processedRow.header}">
+    <strong><f:translate key="LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:header" /></strong>
+    {processedRow.header} (raw={row.header})<br>
+</f:if>
+<f:if condition="{processedRow.tx_mfcontent_buttonlink}">
+    <strong><f:translate key="LLL:EXT:mf_content/Resources/Private/Language/locallang_db.xlf:tt_content.tx_mfcontent_buttonlink" /></strong>
+    {processedRow.tx_mfcontent_buttonlink} (raw={row.tx_mfcontent_buttonlink})<br>
+</f:if>
+<f:if condition="{processedRow.tx_mfcontent_buttonlink_title}">
+    <strong><f:translate key="LLL:EXT:mf_content/Resources/Private/Language/locallang_db.xlf:tt_content.tx_mfcontent_buttonlink_title" /></strong>
+    {processedRow.tx_mfcontent_buttonlink_title} (raw={row.tx_mfcontent_buttonlink_title})<br>
+</f:if>
+<f:if condition="{processedRow.tx_mfcontent_buttonlink_options}">
+    <strong><f:translate key="LLL:EXT:mf_content/Resources/Private/Language/locallang_db.xlf:tt_content.tx_mfcontent_buttonlink_options" /></strong>
+    {processedRow.tx_mfcontent_buttonlink_options} (raw={row.tx_mfcontent_buttonlink_options})<br>
+</f:if>

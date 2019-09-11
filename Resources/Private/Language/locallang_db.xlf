@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2019-09-05T17:11:26+02:00" product-name="mf_content">
+    <header/>
+    <body>
+      <trans-unit id="tx_mfcontent_accordion_items" xml:space="preserve">
+        <source>tx_mfcontent_accordion_items</source>
+      </trans-unit>
+      <trans-unit id="tx_mfcontent_accordion_items.tx_mfcontent_accordion_text" xml:space="preserve">
+        <source>Accordion Text</source>
+      </trans-unit>
+      <trans-unit id="tx_mfcontent_accordion_items.tx_mfcontent_accordion_title" xml:space="preserve">
+        <source>Label</source>
+      </trans-unit>
+      <trans-unit id="tx_mfcontent_iconinfobox_items" xml:space="preserve">
+        <source>tx_mfcontent_iconinfobox_items</source>
+      </trans-unit>
+      <trans-unit id="tx_mfcontent_iconinfobox_items.tx_mfcontent_iconinfobox_icon" xml:space="preserve">
+        <source>Icon</source>
+      </trans-unit>
+      <trans-unit id="tx_mfcontent_iconinfobox_items.tx_mfcontent_iconinfobox_link" xml:space="preserve">
+        <source>internal Link</source>
+      </trans-unit>
+      <trans-unit id="tx_mfcontent_iconinfobox_items.tx_mfcontent_iconinfobox_subtitle" xml:space="preserve">
+        <source>Subtitle</source>
+      </trans-unit>
+      <trans-unit id="tx_mfcontent_iconinfobox_items.tx_mfcontent_iconinfobox_text" xml:space="preserve">
+        <source>Text</source>
+      </trans-unit>
+      <trans-unit id="tx_mfcontent_iconinfobox_items.tx_mfcontent_iconinfobox_title" xml:space="preserve">
+        <source>Title</source>
+      </trans-unit>
+      <trans-unit id="tx_mfcontent_infonumbers_items" xml:space="preserve">
+        <source>tx_mfcontent_infonumbers_items</source>
+      </trans-unit>
+      <trans-unit id="tx_mfcontent_infonumbers_items.tx_mfcontent_infonumbers_icon" xml:space="preserve">
+        <source>undefined</source>
+      </trans-unit>
+      <trans-unit id="tx_mfcontent_infonumbers_items.tx_mfcontent_infonumbers_info" xml:space="preserve">
+        <source>undefined</source>
+      </trans-unit>
+      <trans-unit id="tx_mfcontent_infonumbers_items.tx_mfcontent_infonumbers_number" xml:space="preserve">
+        <source>undefined</source>
+      </trans-unit>
+      <trans-unit id="tx_mfcontent_items" xml:space="preserve">
+        <source>tx_mfcontent_items</source>
+      </trans-unit>
+      <trans-unit id="tx_mfcontent_smfooternavi_items" xml:space="preserve">
+        <source>tx_mfcontent_smfooternavi_items</source>
+      </trans-unit>
+      <trans-unit id="tx_mfcontent_smfooternavi_items.tx_mfcontent_smfooternavi_icon" xml:space="preserve">
+        <source>Social Media Logo</source>
+      </trans-unit>
+      <trans-unit id="tx_mfcontent_smfooternavi_items.tx_mfcontent_smfooternavi_link" xml:space="preserve">
+        <source>Link</source>
+      </trans-unit>
+      <trans-unit id="tx_mfcontent_smfooternavi_items.tx_mfcontent_smfooternavi_title" xml:space="preserve">
+        <source>Title</source>
+      </trans-unit>
+      <trans-unit id="tx_mfcontent_tabbedcontent_items" xml:space="preserve">
+        <source>tx_mfcontent_tabbedcontent_items</source>
+      </trans-unit>
+      <trans-unit id="tx_mfcontent_tabbedcontent_items.tx_mfcontent_tabbedcontent_text" xml:space="preserve">
+        <source>Tabbed Content Text</source>
+      </trans-unit>
+      <trans-unit id="tx_mfcontent_tabbedcontent_items.tx_mfcontent_tabbedcontent_title" xml:space="preserve">
+        <source>Label</source>
+      </trans-unit>
+      <trans-unit id="tx_mfcontent_undefined" xml:space="preserve">
+        <source>tx_mfcontent_undefined</source>
+      </trans-unit>
+      <trans-unit id="tx_mfcontent_undefined.tx_mfcontent_tabbedcontent_text" xml:space="preserve">
+        <source>Tabbed Content Text</source>
+      </trans-unit>
+      <trans-unit id="tx_mfcontent_undefined.tx_mfcontent_tabbedcontent_titel" xml:space="preserve">
+        <source>Label</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_mfcontent_accordion_items" xml:space="preserve">
+        <source>Items</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_mfcontent_buttonlink" xml:space="preserve">
+        <source>Button</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_mfcontent_buttonlink_internal" xml:space="preserve">
+        <source>internal Link</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_mfcontent_buttonlink_options" xml:space="preserve">
+        <source>Options</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_mfcontent_buttonlink_title" xml:space="preserve">
+        <source>Button Title</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_mfcontent_header_subtitle" xml:space="preserve">
+        <source>Header Subtitle</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_mfcontent_header_title" xml:space="preserve">
+        <source>Header Title</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_mfcontent_iconinfobox_items" xml:space="preserve">
+        <source>Items</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_mfcontent_infonumbers_items" xml:space="preserve">
+        <source>Items</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_mfcontent_smfooternavi_items" xml:space="preserve">
+        <source>Items</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_mfcontent_svg_icon" xml:space="preserve">
+        <source>SVG Icon</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_mfcontent_tabbedcontent_items" xml:space="preserve">
+        <source>Items</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_mfcontent_title" xml:space="preserve">
+        <source>Title</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_mfcontent_buttonlink_options.I.0" xml:space="preserve">
+        <source>default</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_mfcontent_buttonlink_options.I.1" xml:space="preserve">
+        <source>full width</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.div._mfcontent_" xml:space="preserve">
+        <source>mf_content</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.mfcontent_accordion" xml:space="preserve">
+        <source>Accordion</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.mfcontent_buttonlink" xml:space="preserve">
+        <source>Button link</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.mfcontent_card" xml:space="preserve">
+        <source>Card (w/ or w/o Image)</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.mfcontent_gallery_lightbox" xml:space="preserve">
+        <source>Photo gallery w/ lightbox</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.mfcontent_gallery_simple" xml:space="preserve">
+        <source>Simple Photo Gallery</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.mfcontent_header_hero" xml:space="preserve">
+        <source>Hero Header w/ Title...</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.mfcontent_header_image" xml:space="preserve">
+        <source>Header Image &amp; Title</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.mfcontent_header_slider" xml:space="preserve">
+        <source>Header Slider &amp; Title</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.mfcontent_icon_infobox" xml:space="preserve">
+        <source>Icon Infobox or as Teaser</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.mfcontent_info_numbers" xml:space="preserve">
+        <source>Numbers for information</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.mfcontent_sm_footernavi" xml:space="preserve">
+        <source>Social Media Navi (Footer)</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.mfcontent_tabbed_content" xml:space="preserve">
+        <source>Tabbed Content</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.mfcontent_teaserbox" xml:space="preserve">
+        <source>Teaserbox</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.mfcontent_text" xml:space="preserve">
+        <source>Text</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.mfcontent_text_with_image" xml:space="preserve">
+        <source>Text w/ Image</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

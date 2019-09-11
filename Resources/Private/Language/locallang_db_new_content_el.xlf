@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2019-09-05T17:11:26+02:00" product-name="mf_content">
+    <header/>
+    <body>
+      <trans-unit id="wizards.newContentElement.accordion_title" xml:space="preserve">
+        <source>Accordion</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.accordion_description" xml:space="preserve">
+        <source>Inserts a accordion to structure content (e.g. faq).</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.buttonlink_title" xml:space="preserve">
+        <source>Button link</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.buttonlink_description" xml:space="preserve">
+        <source>Inserts a button for links (page, file, url, mail).</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.card_title" xml:space="preserve">
+        <source>Card (w/ or w/o Image)</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.card_description" xml:space="preserve">
+        <source>Inserts a card with or without a image on top.</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.gallery_lightbox_title" xml:space="preserve">
+        <source>Photo gallery w/ lightbox</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.gallery_lightbox_description" xml:space="preserve">
+        <source>Inserts a photo gallery w/ lightbox effect.</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.gallery_simple_title" xml:space="preserve">
+        <source>Simple Photo Gallery</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.gallery_simple_description" xml:space="preserve">
+        <source>Inserts a simple photo gallery.</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.header_hero_title" xml:space="preserve">
+        <source>Hero Header w/ Title...</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.header_hero_description" xml:space="preserve">
+        <source>Inserts a Hero Header w/ Logo, Title, Button e.g. for the Homepage.</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.header_image_title" xml:space="preserve">
+        <source>Header Image &amp; Title</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.header_image_description" xml:space="preserve">
+        <source>Inserts a headerimage w/ title.</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.header_slider_title" xml:space="preserve">
+        <source>Header Slider &amp; Title</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.header_slider_description" xml:space="preserve">
+        <source>Inserts a header slider w/ title.</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.icon_infobox_title" xml:space="preserve">
+        <source>Icon Infobox or as Teaser</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.icon_infobox_description" xml:space="preserve">
+        <source>Inserts a infobox with icon, title, subtitle, text and optional a "more" link.</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.info_numbers_title" xml:space="preserve">
+        <source>Numbers for information</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.info_numbers_description" xml:space="preserve">
+        <source>Inserts numbers for information, eg number of employees, company size ...</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.sm_footernavi_title" xml:space="preserve">
+        <source>Social Media Navi (Footer)</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.sm_footernavi_description" xml:space="preserve">
+        <source>Inserst a Social Media Navigation for the footer</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.tabbed_content_title" xml:space="preserve">
+        <source>Tabbed Content</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.tabbed_content_description" xml:space="preserve">
+        <source>Inserts tabbed content to structure content.</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.teaserbox_title" xml:space="preserve">
+        <source>Teaserbox</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.teaserbox_description" xml:space="preserve">
+        <source>Inserts a teaserbox with a title above an image.</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.text_title" xml:space="preserve">
+        <source>Text</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.text_description" xml:space="preserve">
+        <source>Inserts formattable text.</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.text_with_image_title" xml:space="preserve">
+        <source>Text w/ Image</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.text_with_image_description" xml:space="preserve">
+        <source>Inserts formattable text with image.</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

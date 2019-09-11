@@ -1,0 +1,29 @@
+<f:if condition="{data.header}">
+    {data.header}<br />
+</f:if>
+
+<f:if condition="{data_tx_mfcontent_infonumbers_items}">
+    <ul>
+        <f:for each="{data_tx_mfcontent_infonumbers_items}" as="data_item">
+            <li>
+                <f:if condition="{data_item.data_tx_mfcontent_infonumbers_icon}">
+    <f:for each="{data_item.data_tx_mfcontent_infonumbers_icon}" as="file">
+        <f:image image="{file}" alt="{file.alternative}" title="{file.title}" width="200" /><br />
+        {file.description} / {file.identifier}<br />
+    </f:for>
+</f:if>
+
+<f:if condition="{data_item.data.tx_mfcontent_infonumbers_info}">
+    {data_item.data.tx_mfcontent_infonumbers_info}<br />
+</f:if>
+
+<f:if condition="{data_item.data.tx_mfcontent_infonumbers_number}">
+    {data_item.data.tx_mfcontent_infonumbers_number}<br />
+</f:if>
+
+
+            </li>
+        </f:for>
+    </ul>
+</f:if>
+

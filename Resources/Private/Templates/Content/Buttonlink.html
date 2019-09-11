@@ -1,0 +1,20 @@
+<f:if condition="{data.header}">
+    {data.header}<br />
+</f:if>
+
+<f:if condition="{data.tx_mfcontent_buttonlink}">
+    <f:link.page pageUid="{data.tx_mfcontent_buttonlink}">{data.tx_mfcontent_buttonlink}</f:link.page><br />
+</f:if>
+
+<f:if condition="{data.tx_mfcontent_buttonlink_title}">
+    {data.tx_mfcontent_buttonlink_title}<br />
+</f:if>
+
+<f:if condition="{data.tx_mfcontent_buttonlink_options}">
+    <f:switch expression="{data.tx_mfcontent_buttonlink_options}">
+        <f:case value="1">Value is: 1</f:case>
+        <f:case value="2">Value is: 2</f:case>
+        <f:case value="3">Value is: 3</f:case>
+    </f:switch><br />
+</f:if>
+

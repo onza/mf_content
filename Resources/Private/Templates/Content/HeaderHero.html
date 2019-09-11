@@ -1,0 +1,34 @@
+<f:if condition="{data.header}">
+    {data.header}<br />
+</f:if>
+
+<f:if condition="{data_image}">
+    <f:for each="{data_image}" as="file">
+        <f:image image="{file}" alt="{file.alternative}" title="{file.title}" width="200" /><br />
+        {file.description} / {file.identifier}<br />
+    </f:for>
+</f:if>
+
+<f:if condition="{data_tx_mfcontent_svg_icon}">
+    <f:for each="{data_tx_mfcontent_svg_icon}" as="file">
+        <f:image image="{file}" alt="{file.alternative}" title="{file.title}" width="200" /><br />
+        {file.description} / {file.identifier}<br />
+    </f:for>
+</f:if>
+
+<f:if condition="{data.tx_mfcontent_header_title}">
+    {data.tx_mfcontent_header_title}<br />
+</f:if>
+
+<f:if condition="{data.tx_mfcontent_header_subtitle}">
+    {data.tx_mfcontent_header_subtitle}<br />
+</f:if>
+
+<f:if condition="{data.tx_mfcontent_buttonlink}">
+    <f:link.page pageUid="{data.tx_mfcontent_buttonlink}">{data.tx_mfcontent_buttonlink}</f:link.page><br />
+</f:if>
+
+<f:if condition="{data.tx_mfcontent_buttonlink_title}">
+    {data.tx_mfcontent_buttonlink_title}<br />
+</f:if>
+

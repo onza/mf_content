@@ -1,0 +1,26 @@
+<f:if condition="{processedRow.header}">
+    <strong><f:translate key="LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:header" /></strong>
+    {processedRow.header} (raw={row.header})<br>
+</f:if>
+<f:if condition="{processedRow.image}">
+    <strong><f:translate key="LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.images" /></strong>
+<br><f:for each="{processedRow.image}" as="item">
+    <ul>
+        <li>
+    <ul>
+        <f:for each="{item.uid_local}" as="file">
+            <li><f:translate key="LLL:EXT:lang/locallang_tca.xlf:sys_file_reference.uid_local" /> {file.table}|{file.uid}|{file.title} (id={item.uid})</li>
+        </f:for>
+    </ul>
+        </li>
+    </ul>
+</f:for>
+</f:if>
+<f:if condition="{processedRow.tx_mfcontent_header_title}">
+    <strong><f:translate key="LLL:EXT:mf_content/Resources/Private/Language/locallang_db.xlf:tt_content.tx_mfcontent_header_title" /></strong>
+    {processedRow.tx_mfcontent_header_title} (raw={row.tx_mfcontent_header_title})<br>
+</f:if>
+<f:if condition="{processedRow.tx_mfcontent_header_subtitle}">
+    <strong><f:translate key="LLL:EXT:mf_content/Resources/Private/Language/locallang_db.xlf:tt_content.tx_mfcontent_header_subtitle" /></strong>
+    {processedRow.tx_mfcontent_header_subtitle} (raw={row.tx_mfcontent_header_subtitle})<br>
+</f:if>
